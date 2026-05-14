@@ -39,22 +39,22 @@ body {
 /* Clases para fondos específicos por pestaña */
 .bg-gta {
     background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
-                      url('img/grand-theft-auto-v-2880x1800-10738.jpg');
+                      url('https://www.gtabase.com/igallery/8501-8600/gta-v-cover-ps5-xbox-series-xs-8584-1920.jpg');
 }
 
 .bg-clash {
     background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
-                      url('img/Clash-Royale-Characters.jpg');
+                      url('https://tse2.mm.bing.net/th/id/OIP.A9UDdUC2VYNjtDIbSvurJAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
 }
 
 .bg-minecraft {
     background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
-                      url('img/fondos-de-minecraft-cfljc4haleghnajo.jpg');
+                      url(`https://tse4.mm.bing.net/th/id/OIP.KyzCVhjqB0wLSvVomlCoGwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
 }
 
 .bg-historia {
     background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
-                      url('img/R.jfif');
+                      url('https://th.bing.com/th/id/R.0ccaaaf061f80c22d5fe07d5d72c1680?rik=gB8F12JcMmK%2bhg&riu=http%3a%2f%2ffondosmil.co%2ffondo%2f3551.jpg&ehk=fVBgjLayrr7e35B%2f5zsc%2fgo7X2iDtW0uBJRCFKdt6kM%3d&risl=&pid=ImgRaw&r=0');
 }
 /* ============================================================
    4. TIPOGRAFÍA Y ESTRUCTURA
