@@ -1,0 +1,151 @@
+
+/* ============================================================
+   1. IMPORTACIÓN DE FUENTES
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap');
+
+/* ============================================================
+   2. VARIABLES GLOBALES (Colores y Estilos)
+   ============================================================ */
+:root {
+    --gta-bg-overlay: rgba(10, 10, 12, 0.85); 
+    --gta-card-bg: rgba(22, 22, 26, 0.9); 
+    --gta-money-green: #366e2c; 
+    --gta-crimson-red: #cc0000; 
+    --gta-text-white: #f0f0f0; 
+    --gta-outline: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================================
+   3. ESTILOS BASE Y CUERPOS (BACKGROUNDS)
+   ============================================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--gta-text-white);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Clases para fondos específicos por pestaña */
+.bg-gta {
+    background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
+                      url('img/grand-theft-auto-v-2880x1800-10738.jpg');
+}
+
+.bg-clash {
+    background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
+                      url('img/Clash-Royale-Characters.jpg');
+}
+
+.bg-minecraft {
+    background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
+                      url('img/fondos-de-minecraft-cfljc4haleghnajo.jpg');
+}
+
+.bg-historia {
+    background-image: linear-gradient(var(--gta-bg-overlay), var(--gta-bg-overlay)), 
+                      url('img/R.jfif');
+}
+/* ============================================================
+   4. TIPOGRAFÍA Y ESTRUCTURA
+   ============================================================ */
+h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ============================================================
+   5. COMPONENTES (TARJETAS Y BOTONES)
+   ============================================================ */
+.gta-card {
+    background: var(--gta-card-bg);
+    border-left: 5px solid var(--gta-money-green);
+    outline: var(--gta-outline);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    transition: transform 0.2s ease;
+}
+
+.gta-card.alert {
+    border-left-color: var(--gta-crimson-red);
+}
+
+.btn-gta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 35px;
+    background: transparent;
+    color: var(--gta-money-green);
+    border: 2px solid var(--gta-money-green);
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-gta:hover {
+    background: var(--gta-money-green);
+    color: #000;
+}
+
+/* ============================================================
+   6. BARRAS DE ESTADO (HUD)
+   ============================================================ */
+.stat-bar {
+    width: 100%;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+}
+
+.stat-fill {
+    height: 100%;
+    background: var(--gta-money-green);
+    box-shadow: 0 0 10px rgba(54, 110, 44, 0.4);
+}
+
+/* ============================================================
+   7. EFECTO VISUAL DE PANTALLA (SCANLINES)
+   ============================================================ */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.05) 50%);
+    background-size: 100% 4px;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.2;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html> <!-- Indica que es un documento HTML -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft</title>
+    <!--invoca al archivo style.css, corregido el nombre para que funcione con tu archivo-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Aplicamos la clase de fondo de Minecraft que creaste en el CSS-->
+<body class="bg-minecraft">
+
+<!--Usamos tu contenedor principal para centrar el contenido-->
+<div class="container">
+
+    <!-- Encabezado -->
+    <header id="mi-encabezado">
+        <nav>
+            <ul>
+                <!--Añadidas las clases btn-gta a los enlaces del menú-->
+                <li><a href="index.html" class="btn-gta">Inicio</a></li>
+                <li><a href="clash_royal.html" class="btn-gta">Clash Royale </a></li>
+                <li><a href="minecraft.html" class="btn-gta">Minecraft</a></li>
+                <li><a href="gta.html" class="btn-gta">GTA V</a></li>
+            </ul>
+        </nav>
+
+        <h1>Historia de Minecraft</h1>
+    </header>
+
+    <main>
+        <!--Dividimos el contenido en varias tarjetas (gta-card) para que se vea profesional-->
+        <section class="gta-card">
+            <h2>MÓDULO 2.2 - HISTORIA</h2>
+            <hr>
+            <p>
+            Minecraft es uno de los videojuegos más icónicos y exitosos de toda la historia.
+            Lanzado oficialmente en 2011 por Mojang (y comprado más tarde por Microsoft) es un juego
+            de tipo sandbox (mundo abierto) donde no hay un objetivo único y obligatorio; la libertad
+            es total.
+            </p>
+            <p>
+            El mundo está hecho completamente de bloques en 3D que representan diferentes
+            materiales (tierra, piedra, madera, minerales, agua, etc.), y el jugador puede interactuar
+            con ellos para explorar, construir o sobrevivir. 
+            </p>
+        </section>
+
+        <section class="gta-card">
+            <h3>1. Modos de Juego Principales</h3>
+            <p>
+            Modo Supervivencia (Survival): Es el modo clásico. Tienes una barra de vida y otra
+            de hambre. Debes recolectar tus propios recursos, fabricar herramientas, construir un refugio 
+            y defenderte de los monstruos (como zombis, esqueletos o los famosos creepers) que aparecen 
+            por la noche o en cuevas oscuras.
+            </p>
+            <p>
+            Modo Creativo (Creative): Aquí no hay peligros ni límites. Tienes vida infinita, la
+            capacidad de volar y acceso ilimitado a todos los bloques del juego desde un inventario.
+            Es el modo favorito para los que quieren hacer construcciones arquitectónicas masivas,
+            recrear ciudades o experimentar con mecanismos.
+            </p>
+        </section>
+
+        <section class="gta-card alert"> <!--Clase alert para resaltar esta tarjeta-->
+            <h3>2. Las Dos Versiones Principales</h3>
+            <p>
+            Java Edition: La versión original exclusiva para PC (Windows, Mac y Linux). Es famosa
+            porque permite una personalización masiva mediante mods gratuitos creados por la
+            comunidad, texturas personalizadas y servidores multijugador masivos con modos de
+            juegos unicos. 
+            </p>
+            <p>
+            Bedrock Edition: Es la versión multiplataforma diseñada en un motor más ligero. Está
+            disponible en consolas (PlayStation, Xbox, Nintendo Switch), dispositivos móviles (iOS,
+            Android) y Windows. Su gran ventaja es el cross-play, que permite que alguien desde su
+            teléfono juegue con un amigo que está en una consola o en PC sin problemas.
+            </p>
+        </section>
+
+        <section class="gta-card">
+            <h3>3. Elementos Clave del Juego</h3>
+            <p>
+            Crafteo (Crafting): La base del juego es combinar materiales en una cuadrícula (la mesa
+            de trabajo) para crear nuevos objetos. Por ejemplo, combinar madera y piedra para hacer
+            un pico, o usar hierro para fabricar una armadura.
+            </p>
+            <p>
+            Redstone: Es el equivalente a la electricidad dentro de Minecraft. Permite conectar
+            cables de energía para activar pistones, luces y placas de presión. Con redstone se
+            pueden crear desde puertas automáticas sencillas hasta computadoras funcionales dentro del juego. 
+            </p>
+            <!--Se limpió la etiqueta antigua de centrado y se adaptó para el diseño actual-->
+            <div style="text-align: center; margin-top: 15px;">
+                <img src="images.jpg" alt="Imagen de Minecraft" style="max-width: 100%; border: 1px solid var(--gta-money-green);">
+            </div>
+        </section>
+
+        <section class="gta-card">
+            <h3>4. Impacto y Actualidad</h3>
+            <p>
+            Minecraft sigue estando increíblemente vivo. Cuenta con más de 200 millones de usuarios
+            activos al mes en todo el mundo y ya superó los 350 millones de copias vendidas.
+            </p>
+            <p>
+            El juego se actualiza constantemente mediante pequeños parches y grandes "drops" de
+            contenido que añaden nuevos biomas (como el Pale Garden), criaturas (mobs) y bloques para
+            que la comunidad nunca se aburra de explorar. Además, su versatilidad ha hecho que exista
+            Minecraft Education, una versión utilizada en escuelas de todo el mundo para enseñar
+            programación, matemáticas, historia y química de forma visual.
+            </p>
+        </section>
+
+    </main>
+
+    <!--Pie de pagina-->
+    <div class="footer">Derechos reservados © 2026 Jonathan Escobar</div>
+
+</div>
+
+<!--Invoca al archivo script.js-->
+<script src="script.js"></script>
+</body>
+</html>
