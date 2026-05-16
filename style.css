@@ -12,6 +12,9 @@
 }
 
 
+/* ============================================================
+   3. ESTILOS BASE Y CONFIGURACIÓN DE FONDOS
+   ============================================================ */
 * {
     margin: 0;
     padding: 0;
@@ -19,12 +22,13 @@
 }
 
 body {
+    background-color: #0a0c14 !important; /* Forza el color oscuro en todo el sitio */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     color: var(--text-main);
-    font-family: 'Oxanium', sans-serif; 
+    font-family: 'Oxanium', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -32,14 +36,14 @@ body {
 
 .bg-gta, .bg-clash, .bg-minecraft, .bg-historia {
     background-blend-mode: overlay;
-    background-color: rgba(5, 5, 8, 0.85);
+    background-color: #01080f !important; 
 }
+
 
 .bg-gta {
     background-image: none !important; 
-    background-color: #0a0c14;          
+    background-color: #0a0c14 !important;
 }
-
 
 .bg-clash {
     background-image: url('https://tse2.mm.bing.net/th/id/OIP.A9UDdUC2VYNjtDIbSvurJAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
