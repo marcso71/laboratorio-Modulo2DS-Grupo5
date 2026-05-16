@@ -70,13 +70,13 @@ h1 {
     background: linear-gradient(180deg, #fff 0%, var(--neon-cyan) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 2px 8px rgba(0,243,255,0.8));
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8));
 }
 
 h2 {
     font-size: 1.8rem;
     color: var(--neon-cyan);
-    text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
+    text-shadow: 0 0 8px rgba(2, 15, 15, 0.6);
     text-align: left;
     margin-bottom: 15px;
 }
