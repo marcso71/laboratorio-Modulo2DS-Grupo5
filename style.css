@@ -35,6 +35,11 @@ body {
     background-color: rgba(5, 5, 8, 0.85);
 }
 
+.bg-gta {
+    background-image: none !important; 
+    background-color: #0a0c14;          
+}
+
 
 .bg-clash {
     background-image: url('https://tse2.mm.bing.net/th/id/OIP.A9UDdUC2VYNjtDIbSvurJAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
